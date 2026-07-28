@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Node.js CI/CD Pipeline Dashboard</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#eef3f8;
+}
+
+.container{
+width:80%;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 15px gray;
+}
+
+h1{
+text-align:center;
+color:#234;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th{
+background:#007bff;
+color:white;
+padding:10px;
+}
+
+td{
+padding:10px;
+text-align:center;
+border:1px solid #ddd;
+}
+
+.success{
+color:green;
+font-weight:bold;
+}
+
+.footer{
+text-align:center;
+margin-top:30px;
+font-size:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🚀 Node.js CI/CD Pipeline Dashboard</h1>
+
+<p><b>Application :</b> Node.js CI/CD Project</p>
+<p><b>Author :</b> Your Name</p>
+<p><b>Version :</b> 1.0.0</p>
+
+<table>
+
+<tr>
+<th>Stage</th>
+<th>Description</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Checkout</td>
+<td>Clone GitHub Repository</td>
+<td class="success">✔ SUCCESS</td>
+</tr>
+
+<tr>
+<td>Docker Login</td>
+<td>Authenticate Docker Hub</td>
+<td class="success">✔ SUCCESS</td>
+</tr>
+
+<tr>
+<td>Build Image</td>
+<td>Create Docker Image</td>
+<td class="success">✔ SUCCESS</td>
+</tr>
+
+<tr>
+<td>Push Image</td>
+<td>Upload to Docker Hub</td>
+<td class="success">✔ SUCCESS</td>
+</tr>
+
+<tr>
+<td>Deploy</td>
+<td>Run Docker Container</td>
+<td class="success">✔ SUCCESS</td>
+</tr>
+
+</table>
+
+<div class="footer">
+
+GitHub ➜ Jenkins ➜ Docker ➜ Docker Hub ➜ Deployment
+
+</div>
+
+</div>
+
+</body>
+
+</html>
